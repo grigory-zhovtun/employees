@@ -1,0 +1,27 @@
+.AppInfo {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    height: 168px;
+    background: linear-gradient(96deg, rgba(68, 59, 40, 0.882) 30.35%, rgba(104, 83, 6, 0.686) 93.71%);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}

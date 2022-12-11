@@ -1,0 +1,22 @@
+.App {
+    margin: 0 auto;
+    max-width: 980px;
+    height: 100vh;
+    background: linear-gradient(45deg, #786440 0%, #786440 5%,transparent 5%, transparent 10%, #786440 10%, #786440 15%,transparent 15%,transparent 20%, #786440 20%, #786440 25%,transparent 25%,transparent 30%, #786440 30%, #786440 35%,transparent 35%,transparent 40%, #786440 40%, #786440 45%,transparent 45%,transparent 50%, #786440 50%, #786440 55%,transparent 55%,transparent 60%, #786440 60%, #786440 65%,transparent 65%,transparent 70%, #786440 70%, #786440 75%,transparent 70%,transparent 80%, #786440 80%, #786440 85%,transparent 85%,transparent 90%, #786440 90%, #786440 95%,transparent 95%), linear-gradient(135deg, #786440 0%, #786440 5%,transparent 5%, transparent 10%, #786440 10%, #786440 15%,transparent 15%,transparent 20%, #786440 20%, #786440 25%,transparent 25%,transparent 30%, #786440 30%, #786440 35%,transparent 35%,transparent 40%, #786440 40%, #786440 45%,transparent 45%,transparent 50%, #786440 50%, #786440 55%,transparent 55%,transparent 60%, #786440 60%, #786440 65%,transparent 65%,transparent 70%, #786440 70%, #786440 75%,transparent 70%,transparent 80%, #786440 80%, #786440 85%,transparent 85%,transparent 90%, #786440 90%, #786440 95%,transparent 95%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    opacity: 1
+  }
+
+.search-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 44px;
+    width: 980px;
+    height: 162px;
+    background: linear-gradient(96deg, rgba(68, 59, 40, 0.882) 30.35%, rgba(104, 83, 6, 0.686) 93.71%);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}

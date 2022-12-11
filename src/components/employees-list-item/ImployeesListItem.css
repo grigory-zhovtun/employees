@@ -1,0 +1,8 @@
+.EmployeesListItem {
+    width: 980px;
+    height: 79px;
+    background: #FEECBF;
+    box-shadow: 6px 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    list-style-type: none;
+}

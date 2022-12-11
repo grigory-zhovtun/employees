@@ -1,0 +1,29 @@
+.AppFilter {
+
+}
+
+.Buttons {
+    width: 298px;
+    height: 54px;
+    background: rgba(104, 83, 6, 0.7);
+    border: 1px solid #FFF9E3;
+    box-shadow: 3px 6px 20px rgba(255, 246, 216, 0.8);
+    border-radius: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+}
+
+.Buttons:hover {
+    background: radial-gradient(47.22% 1226.08% at 45.87% 27.78%, rgba(104, 83, 6, 0.7) 0%, rgba(104, 83, 6, 0.28) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid #FFE58A;
+    box-shadow: 3px 6px 20px rgba(255, 246, 216, 0.8);
+    border-radius: 15px;
+    color: #FFE58A;
+}
