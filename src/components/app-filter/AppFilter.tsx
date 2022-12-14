@@ -3,7 +3,7 @@ import "./AppFilter.css"
 
 export const AppFilter = () => {
     return (
-        <div className="btn-group">
+        <div className="AppFilter">
             <button type="button"
                     className="Buttons">
                 All

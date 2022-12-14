@@ -1,0 +1,75 @@
+.EmployeesAddForm {
+    width: 980px;
+    height: 138px;
+    background: linear-gradient(96deg, rgba(68, 59, 40, 0.27) 30.35%, rgba(104, 83, 6, 0.21) 93.71%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset -5px -5px 40px rgba(255, 255, 255, 0.5), inset 5px 5px 40px rgba(255, 247, 247, 0.5);
+    backdrop-filter: blur(25px);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 24px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.Buttons {
+    width: 298px;
+    height: 54px;
+    background: rgba(104, 83, 6, 0.7);
+    border: 1px solid #FFF9E3;
+    box-shadow: 3px 6px 20px rgba(255, 246, 216, 0.8), inset 5px 5px 10px rgba(255, 255, 255, 0.5), inset -5px -5px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+}
+
+.Buttons:hover {
+    background: rgba(104, 83, 6, 0.7);
+    box-shadow: 3px 6px 20px rgba(255, 246, 216, 0.8), inset 5px 5px 10px #FFE58A, inset -5px -5px 10px #FFE58A;
+    color: #FFE58A;
+}
+
+.Buttons:active {
+    background: rgba(104, 83, 6, 0.2);
+    opacity: 0.5;
+    box-shadow: 3px 6px 20px rgba(255, 246, 216, 0.8), inset 5px 5px 10px #FFFFFF, inset -5px -5px 10px #FFFFFF;
+}
+
+.InputPanelAddForm {
+    height: 44px;
+    background: #FFFFFF;
+    box-shadow: 3px 5px 20px rgba(253, 239, 204, 0.5), inset -2px -2px 4px rgba(0, 0, 0, 0.25), inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 30px;
+    position: relative;
+
+
+}
+
+.InputName {
+    width: 375px;
+}
+
+.InputSalary {
+    width: 190px;
+}

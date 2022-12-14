@@ -1,20 +1,21 @@
 import React from "react";
+import './EmployeesAddForm.css'
 
 export const EmployeesAddForm = () => {
     return (
-        <div className="app-add-form">
-            <h3>Добавьте нового сотрудника</h3>
+        <div className="EmployeesAddForm">
+            <p>Add new employees</p>
             <form
                 className="add-form d-flex">
                 <input type="text"
-                       className="form-control new-post-label"
-                       placeholder="Как его зовут?" />
+                       className="InputPanelAddForm InputName"
+                       placeholder="Name" />
                 <input type="number"
-                       className="form-control new-post-label"
-                       placeholder="З/П в $?" />
+                       className="InputPanelAddForm InputSalary"
+                       placeholder="Salary $" />
 
                 <button type="submit"
-                        className="btn btn-outline-light">Добавить</button>
+                        className="Buttons">Add</button>
             </form>
         </div>
     )

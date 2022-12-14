@@ -9,16 +9,18 @@ import './App.css'
 
 export const App = () => {
     return (
-        <div className="App">
-            <AppInfo />
+        <div className="container">
+            <div className="App">
+                <AppInfo />
 
-            <div className="search-panel">
-                <SearchPanel/>
-                <AppFilter/>
+                <div className="search-panel">
+                    <SearchPanel/>
+                    <AppFilter/>
+                </div>
+
+                <EmployeesList/>
+                <EmployeesAddForm/>
             </div>
-
-            <EmployeesList/>
-            <EmployeesAddForm/>
         </div>
     )
 }
